@@ -1,6 +1,4 @@
-package core_java.collections;
-
-public class Arraylist {
+public class ArrayListExample {
     public static void main(String[] args) {
         System.out.println("Welcome to collections");
     }
