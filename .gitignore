@@ -1,0 +1,10 @@
+# IntelliJ files
+.idea/
+*.iml
+
+# Build output
+out/
+build/
+
+# Compiled files
+*.class
