@@ -3,7 +3,7 @@ import e_LinkedList.a_SinglyLinkedList.ListNode;
 
 /*
     LeetCode: 61. Rotate List
-    Difficulty: Easy
+    Difficulty: Medium
     TC: O(N) | SC: O(1)
     Approach : FastSlowPointers + Positioning
 */
