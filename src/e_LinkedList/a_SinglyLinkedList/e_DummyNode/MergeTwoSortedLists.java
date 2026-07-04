@@ -12,6 +12,10 @@ public class MergeTwoSortedLists {
 
     public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
 
+        if(list1 == null && list2 == null ) return null;
+        if(list1 == null) return list2;
+        if(list2 == null) return list1;
+
         // Brute -  ArrayList
     /*
         ArrayList<Integer> arr = new ArrayList<>();
@@ -41,27 +45,26 @@ public class MergeTwoSortedLists {
 
         // Optimal - Dummy 
 
-        if(list1 == null && list2 == null ) return null;
-        if(list1 == null) return list2;
-        if(list2 == null) return list1;
-
-        ListNode dummy = new ListNode(0,null);
+        ListNode dummy = new ListNode(-1);
         ListNode curr = dummy;
 
-        while(list1 != null  && list2 != null){
-            if (list1.data <= list2.data) {
-                curr.next = list1;
-                list1 = list1.next;
-            }
-            else {
-                curr.next = list2;
-                list2 = list2.next;
-            }
-            curr = curr.next;
+        ListNode t1 = list1;
+        ListNode t2 = list2;
 
+        while (t1 != null && t2 != null) {
+
+            if (t1.val < t2.val) {
+                curr.next = t1;
+                t1 = t1.next;
+            } else {
+                curr.next = t2;
+                t2 = t2.next;
+            }
+
+            curr = curr.next;
         }
 
-        curr.next = (list1 != null) ? list1 : list2;
+        curr.next = (t1 != null) ? t1 : t2;
 
         return dummy.next;
 
