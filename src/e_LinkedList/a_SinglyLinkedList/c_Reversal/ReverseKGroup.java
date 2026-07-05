@@ -1,7 +1,12 @@
 package e_LinkedList.a_SinglyLinkedList.c_Reversal;
 import  e_LinkedList.a_SinglyLinkedList.ListNode;
 
-
+/*
+    LeetCode: 25. Reverse Nodes in k-Group
+    Difficulty: Hard
+    TC: O(N) | SC: O(1)
+    Approach: Reversal + Pointer Manipulation
+*/
 
 public class ReverseKGroup {
 
