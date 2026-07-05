@@ -35,15 +35,15 @@ public class DeleteNode {
         }
         int count = 0;
         ListNode temp = head;
-        ListNode prev =  null;
+//        ListNode prev =  null;
 
         while(temp != null){
             count++;
-            if(count == k){
-                prev.next = prev.next.next;
+            if(count == k - 1){
+                temp.next = temp.next.next;
                 break;
             }
-            prev = temp;
+//            prev = temp;
             temp = temp.next;
         }
 
@@ -58,7 +58,7 @@ public class DeleteNode {
         }
 
         ListNode curr = head;
-        while (curr != null && curr.next != null) {
+        while ( curr.next != null) {
             if (curr.next.data == val) {
                 curr.next = curr.next.next;
             } else {
@@ -73,13 +73,10 @@ public class DeleteNode {
 
         ListNode head = new ListNode(10, new ListNode(20, new ListNode(30, new ListNode(40, null))));
 
-        // Node temp = removeHead(head);
-
-         int k = 4;
-         ListNode temp = removePosition(head, k);
-//
-//        int val = 10;
-//        Node temp = removeValue(head, val);
+        // ListNode temp = removeHead(head);
+        // ListNode temp = removeTail(head);
+        // ListNode temp = removePosition(head, 3);
+        ListNode temp = removeValue(head, 50);
 
         while(temp != null){
             System.out.print(temp.data + " -> ");

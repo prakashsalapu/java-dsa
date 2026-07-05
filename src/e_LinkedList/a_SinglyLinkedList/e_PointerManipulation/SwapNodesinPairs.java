@@ -1,4 +1,4 @@
-package e_LinkedList.a_SinglyLinkedList.c_Reversal;
+package e_LinkedList.a_SinglyLinkedList.e_PointerManipulation;
 import e_LinkedList.a_SinglyLinkedList.ListNode;
 
 /*

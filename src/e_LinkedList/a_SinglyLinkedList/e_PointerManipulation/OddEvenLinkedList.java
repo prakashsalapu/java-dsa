@@ -1,4 +1,4 @@
-package e_LinkedList.a_SinglyLinkedList.a_BasicOperations;
+package e_LinkedList.a_SinglyLinkedList.e_PointerManipulation;
 import e_LinkedList.a_SinglyLinkedList.ListNode;
 
 /*

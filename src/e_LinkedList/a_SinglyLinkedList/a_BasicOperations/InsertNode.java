@@ -6,8 +6,8 @@ public class InsertNode {
 
     // Insert at Head
     public static ListNode insertAtHead(ListNode head, int val){
-        ListNode temp = new ListNode(val, head);
-        return temp;
+//        ListNode temp = new ListNode(val, head);
+        return new ListNode(val,head);
     }
 
     // Insert at Tail
@@ -45,8 +45,8 @@ public class InsertNode {
         while(temp != null){
             count++;
             if(count == (pos-1)){
-                ListNode newNode = new ListNode(val, null);
-                newNode.next = temp.next;
+                ListNode newNode = new ListNode(val, temp.next);
+//                newNode.next = temp.next;
                 temp.next = newNode;
                 break;
             }
@@ -84,10 +84,10 @@ public class InsertNode {
     public static void main(String[] args) {
         ListNode head = new ListNode(7, new ListNode(1, new ListNode(2, new ListNode(3, null))));
 
-//        Node temp = insertAtHead(head, 100);
-//        Node temp = insertAtTail(head, 4);
-//        Node temp = insertAtPosition(head, 3, 5);
-        ListNode temp = insertBeforeElement(head, 5, 20);
+//        ListNode temp = insertAtHead(head, 100);
+        ListNode temp = insertAtTail(head, 4);
+//        ListNode temp = insertAtPosition(head, 3, 5);
+//        ListNode temp = insertBeforeElement(head, 5, 20);
 
         while(temp != null){
             System.out.print(temp.data + " -> ");

@@ -29,8 +29,8 @@ public class DeleteNode {
 
     // Delete Node at Position (Kth Element)
     public static ListNode deleteAtPosition(ListNode head, int k){
-        if(head == null) return null;
-        if(k<1) return head;
+
+        if(head == null || k<1 ) return head;
 
         int count = 0;
         ListNode temp = head;
@@ -66,9 +66,7 @@ public class DeleteNode {
         back.next = front;
         front.prev = back;
 
-        temp.next = null;
-        temp.prev = null;
-
+        temp.next = temp.prev = null;
 
         return head;
     }
@@ -134,10 +132,10 @@ public class DeleteNode {
         n4.next = null;
 
 
-//        Node temp = deleteAtHead(head);
-//        Node temp = deleteAtTail(head);
-//        Node temp = deleteAtPosition(head, 3);
-        ListNode temp = deleteAtValue(head, 50);
+//        ListNode temp = deleteAtHead(head);
+//        ListNode temp = deleteAtTail(head);
+        ListNode temp = deleteAtPosition(head, 3);
+//        ListNode temp = deleteAtValue(head, 50);
 
         // DLL Traversal
         System.out.print("null <- ");

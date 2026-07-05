@@ -1,4 +1,4 @@
-package c_Arrays.Easy;
+package c_Arrays.Medium.Easy;
 
 //  TC: O(n) | SC: O(1)
 

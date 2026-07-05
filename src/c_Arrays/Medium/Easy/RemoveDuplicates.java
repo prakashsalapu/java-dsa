@@ -1,4 +1,4 @@
-package c_Arrays.Easy;
+package c_Arrays.Medium.Easy;
 
 //  LeetCode: 26. Remove Duplicates from Sorted Array
 //  TC: O(n) | SC: O(1)
