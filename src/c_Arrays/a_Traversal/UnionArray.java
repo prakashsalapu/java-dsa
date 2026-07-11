@@ -1,4 +1,4 @@
-package c_Arrays.Medium.Easy;
+package c_Arrays.a_Traversal;
 import java.util.ArrayList;
 public class UnionArray {
 

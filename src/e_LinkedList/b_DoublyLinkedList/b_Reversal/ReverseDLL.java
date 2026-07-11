@@ -68,10 +68,10 @@ public class ReverseDLL {
 
         // DLL Traversal
         System.out.print("null <- ");
-        for(ListNode curr = temp; curr != null; curr = curr.next){
-            System.out.print(curr.data + " ");
+            for(ListNode curr = temp; curr != null; curr = curr.next){
+                System.out.print(curr.data + " ");
 
-            if (curr.next != null) {
+                if (curr.next != null) {
                 System.out.print(" <-> ");
             }
         }

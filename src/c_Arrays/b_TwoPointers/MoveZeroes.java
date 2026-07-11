@@ -1,4 +1,4 @@
-package c_Arrays.Medium.Easy;
+package c_Arrays.b_TwoPointers;
 import java.util.Arrays;
 
 //  LeetCode : 283. Move Zeroes

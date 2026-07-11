@@ -1,4 +1,4 @@
-package c_Arrays.Medium.Easy;
+package c_Arrays.a_Traversal;
 import java.util.Arrays;
 
 //  TC: O(n) | SC: O(1)

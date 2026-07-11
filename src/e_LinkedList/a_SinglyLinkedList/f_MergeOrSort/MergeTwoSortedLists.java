@@ -21,12 +21,12 @@ public class MergeTwoSortedLists {
         ArrayList<Integer> arr = new ArrayList<>();
 
         while(list1 != null){
-            arr.add(list1.val);
+            arr.add(list1.data);
             list1 = list1.next;
         }
 
         while(list2 != null){
-            arr.add(list2.val);
+            arr.add(list2.data);
             list2 = list2.next;
         }
         
@@ -53,7 +53,7 @@ public class MergeTwoSortedLists {
 
         while (t1 != null && t2 != null) {
 
-            if (t1.val < t2.val) {
+            if (t1.data < t2.data) {
                 curr.next = t1;
                 t1 = t1.next;
             } else {
