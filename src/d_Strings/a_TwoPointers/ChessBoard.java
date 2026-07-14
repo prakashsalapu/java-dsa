@@ -1,4 +1,4 @@
-package d_Strings.Easy;
+package d_Strings.a_TwoPointers;
 import java.util.Scanner;
 
 //  Problem: Unstop - CHESSBOARD - 1/100
