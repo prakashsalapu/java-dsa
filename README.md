@@ -77,42 +77,15 @@ src/
 ```
 
 
----
-
-## 🧩 Problem-Solving Patterns
-
-This repository focuses heavily on interview patterns such as:
-
-* Two Pointers
-* Sliding Window
-* Fast & Slow Pointers
-* Prefix Sum
-* Kadane's Algorithm
-* Reversal Pattern
-* Dummy Node Pattern
-* Merge / Sort Pattern
-* HashMap Pattern
-* Stack-Based Pattern
-
-Each pattern folder contains:
-
-* Pattern Notes
-* Recognition Clues
-* Generic Templates
-* Practice Problems
-* Java Implementations
-
----
-
 ## 📈 Current Progress
 
 | Topic               | Status |
 | ------------------- | ------ |
 | Foundations         | ✅      |
 | Sorting             | ✅      |
-| Arrays              | 🚧     |
-| Strings             | 🚧     |
-| Linked Lists        | 🚧     |
+| Arrays              | 🚧      |
+| Strings             | 🚧      |
+| Linked Lists        | ✅      |
 | Recursion           | ⏳      |
 | Binary Search       | ⏳      |
 | Stack               | ⏳      |
@@ -140,12 +113,6 @@ For every problem:
 5. Analyze Time Complexity
 6. Analyze Space Complexity
 7. Implement clean Java code
-
-Whenever applicable, solutions include:
-
-* Brute Force Approach
-* Better Approach
-* Optimal Approach
 
 ---
 
