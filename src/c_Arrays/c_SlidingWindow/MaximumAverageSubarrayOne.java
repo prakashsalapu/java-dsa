@@ -1,12 +1,10 @@
 package c_Arrays.c_SlidingWindow;
-
 /*
     LeetCode: 643. Maximum Average Subarray I
     Difficulty: Easy
     TC: O(N) | SC: O(1)
     Approach : Sliding Window - Fixed Size
 */
-
 public class MaximumAverageSubarrayOne {
 
     public static double findMaxAverage(int[] nums, int k) {
