@@ -7,7 +7,7 @@ package c_Arrays.c_SlidingWindow;
     Approach : Sliding Window - Fixed Size
 */
 
-public class NumOfDistinctSubarrays {
+public class AvgGreaterThanThreshold {
 
     public static int numOfSubarrays(int[] arr, int k, int threshold) {
 
